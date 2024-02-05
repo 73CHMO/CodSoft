@@ -7,9 +7,12 @@
     <title>Calculator</title>
 </head>
 <body>
+    <!-- Calculator container with the grid layout -->
     <div class="calculator">
+        <!-- Display area for the calculator -->
         <div class="display" id="display">0</div>
         
+        <!-- Calculator buttons with their respective functions -->
         <button class="gray" onclick="clearDisplay()">AC</button>
         <button class="gray" onclick="toggleSign()">+/-</button>
         <button class="gray" onclick="percentage()">%</button>
@@ -35,6 +38,7 @@
         <button class="orange" onclick="calculateResult()">=</button>
     </div>
 
+    <!-- Include the JavaScript file for calculator functionality -->
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,54 +1,61 @@
+/* Styles for the overall page layout */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
-    background-color: #a5a5a5;
+    margin: 0; 
+    background-color: #a5a5a5; 
 }
 
+/* Styles for the calculator container */
 .calculator {
-    display: grid;
+    display: grid; 
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 8px;
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    background-color: #000000;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    grid-gap: 8px; 
+    max-width: 300px; 
+    margin: auto; 
+    text-align: center; 
+    background-color: #000000; 
+    padding: 20px; 
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
+/* Styles for the calculator display */
 .display {
     grid-column: span 4;
-    background-color: #f0f0f0;
-    padding: 15px;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    background-color: #f0f0f0; 
+    padding: 15px; 
+    font-size: 1.5em; 
+    margin-bottom: 10px; 
+    border-radius: 10px; 
     overflow: hidden;
 }
 
+/* Styles for calculator buttons */
 button {
     font-size: 1.2em;
-    padding: 15px;
+    padding: 15px; 
     border: none;
-    outline: none;
+    outline: none; 
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 8px; 
 }
 
+/* Styles for gray-colored buttons */
 .gray {
     background-color: #a5a5a5;
-    color: #fff;
+    color: #fff; 
 }
 
+/* Styles for orange-colored buttons */
 .orange {
-    background-color: #ff9e00;
-    color: #fff;
+    background-color: #ff9e00; 
+    color: #fff; 
 }
 
+/* Styles for the double-width zero button */
 .zero {
-    grid-column: span 2;
+    grid-column: span 2; 
 }
