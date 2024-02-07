@@ -1,4 +1,4 @@
-# Calculator Project
+# Calculator
 
 ## Overview
 This is a basic calculator project created using HTML, CSS, and JavaScript. The calculator provides functionality for addition, subtraction, multiplication, and division operations. It features a responsive and interactive interface with a display screen to show user input and results.
